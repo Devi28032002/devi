@@ -1,0 +1,104 @@
+
+ .fluid-thermo-container {
+    width: 100%;
+}
+
+.fluid-thermo-container .phdmain-section {
+    padding: 30px 20px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 40px;
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.fluid-thermo-container  .phdmain-section p{
+    margin: 0;
+}
+
+.fluid-thermo-container  .phdtext-section {
+    padding: 40px;
+    background-color: rgb(191, 224, 249);
+}
+
+.fluid-thermo-container .subtextContainer {
+    color: black;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.fluid-thermo-container  .subtextContainer p {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #555;
+}
+
+.fluid-thermo-container .text-image-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.fluid-thermo-container .text-section {
+    flex: 2;
+}
+
+.fluid-thermo-container .image-section {
+    display: flex;
+    height: 220px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6%;
+}
+
+.fluid-thermo-container  .phd-image11 {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.fluid-thermo-container .additional-text {
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #555;
+}
+
+
+@media (max-width: 768px) {
+    .fluid-thermo-container   .text-image-container {
+        flex-direction: column;
+    }
+
+    .fluid-thermo-container    .image-section {
+        margin-bottom: 20px;
+    }
+
+    .fluid-thermo-container    .text-section,
+    .image-section {
+        flex: none;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .fluid-thermo-container   .phdmain-section {
+        font-size: 32px;
+        padding: 20px;
+    }
+
+    .fluid-thermo-container   .subtextContainer {
+        padding: 30px;
+    }
+
+    .fluid-thermo-container    .subtextContainer p {
+        font-size: 16px;
+    }
+
+    .fluid-thermo-container   .additional-text {
+        font-size: 16px;
+    }
+}

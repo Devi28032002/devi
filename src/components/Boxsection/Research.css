@@ -1,0 +1,636 @@
+
+a {
+  text-decoration: none;
+}
+
+ /* Base Styles */
+ /* .research-container  body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background-color: white;
+} */
+
+
+.research-container .research-nav {
+  position: sticky;
+   font-family: 'Arial', sans-serif;
+  top:0;
+  z-index: 1000; /* Ensure it's above other content */
+  background-color: #333;
+  padding: 15px;
+  display: flex;
+  width: 100%;
+}
+.research-container .research-nav ul{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+  /* Hero Section */
+  .research-container .researchhero-section {
+    background: url('../../assets/imag1.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .research-container .researchhero-section .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px 20px;
+  }
+  
+  .research-container .researchhero-section h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .research-container .researchhero-section p {
+    font-size: 1.2rem;
+  }
+  
+  .research-container .mainHeading {
+    font-size: 2em;
+    padding: 10px;
+    text-transform: capitalize;
+    letter-spacing: 0.8px;
+    text-align: center;
+    color: #1d1b1b; /* Adjust color as needed */
+    margin: 0;
+  }
+  
+  
+/* Card Container */
+.research-container .card-container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:30px 40px;
+    background-color: #fff;
+  }
+  
+  /* Card */
+  .research-container .card-container .card {
+    /* background-color: #ffffff; */
+    background: #d1e3ea;
+    /* color: black; */
+    border-radius: 8px;
+    padding: 20px;
+    width: calc(100% - 40px); /* Default full width with padding consideration */
+    flex: 1 1 calc(33.333% - 40px);
+    min-width: 380px;
+    position: relative;
+    border: 1px solid rgb(194, 185, 185);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .research-container .card-container .card:hover {
+    transform: translateY(-10px);
+    border: 2px solid #007bff ;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Card Content */
+  .research-container .card-container .card-content {
+    line-height: 1.6;
+    margin: 0;
+    padding:0 10px;
+    color: gray;
+   
+  }
+  
+  /* Card Header */
+  .research-container .card-container  .card-header {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    /* margin-bottom: 10px; */
+  }
+  
+  .research-container .card-container  .card-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: gray;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .research-container .card-container  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+  }
+  
+ 
+  /* Card Icon */
+  .research-container .card-container .card-icon {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    /* background-color: #c8ced4;   */
+    background-color: white;
+      border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .research-container .card-container  .card-icon .icon {
+    color:  #007bff;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+   
+  }
+  .research-container .card-icon:hover{
+    background-color: #007bff;
+  }
+  .research-container .card-icon .icon:hover {
+    color: #ffffff;
+  }
+
+  /* Card Hover State */
+  .research-container  .card:hover .card-number {
+    color: #007bff; /* Change card-number color */
+  }
+  
+  .research-container  .card:hover .card-icon {
+    background-color: #007bff; 
+  }
+  
+  .research-container  .card:hover .card-icon .icon {
+    color: #ffffff; /* Change card-icon inner icon color */
+  }
+
+  /* facilities section */
+  .research-container .facilitiesContainer {
+  /* padding: 40px 20px; */
+  max-width: 650px;
+  margin: 0 ;
+  flex: 1 1 50%;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.research-container  .facilitiesContainer h2 {
+  font-size: 2.2em;
+  margin-bottom: 20px;
+  color: #333;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #4caf50;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.research-container .facilitiesList {
+  list-style: none;
+  padding: 0px;
+  margin: 0;
+  width: 80%;
+  text-align: left;
+ display: inline-block;
+}
+
+.research-container .facilitiesList li {
+  font-size: 1.2em;
+  color: #333;
+  margin: 15px 0;
+  padding: 10px 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  border-left: 5px solid #007bff;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.research-container .facilitiesList li:hover {
+  transform: translateX(5px);
+}
+
+.research-container .facilitiesList li .icon {
+  font-size: 1em;
+  color: #4caf50; 
+  margin-right: 10px;
+ align-items: center;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+
+
+/* .imageContainer {
+  flex: 1 1 50%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.resImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.resImage:nth-child(odd) {
+  transform: translateY(-10px);
+}
+
+.resImage:nth-child(even) {
+  transform: translateY(10px);
+}
+
+.resImage:hover {
+  transform: scale(1.1);
+}
+
+.fullContainer{
+  display: flex;
+} */
+.research-container .fullContainer {
+  display: flex;
+ padding: 30px 40px;
+ 
+}
+
+.research-container .facilitiesContainer {
+  flex: 1;
+  background-color: #d9e4e8;
+  padding: 30px;
+  border-radius: 8px;
+
+}
+
+.research-container .facilitiesContainer h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.research-container .facilitiesList {
+  list-style: none;
+  padding: 0;
+}
+
+.research-container .facilitiesList li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.research-container .facilitiesList li .icon {
+  color: #007bff;
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+.research-container button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  margin-left: 63px;
+}
+
+.research-container button:hover {
+  background-color: #0056b3;
+}
+
+.research-container .videoContainer {
+ 
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  /* max-width: 470px;  */
+ margin-left: 15px;
+ width: 39%;
+}
+
+.research-container video {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  
+}
+
+.research-container .secImage{
+  border-radius: 10px;
+    width: 100%;
+    height: 217px;
+
+}
+
+
+
+.research-container .ReSection {
+  border: 1px solid #003366;
+    padding: 10px;
+    margin: 15px 41px;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    width: 25%;
+    display: inline-flex;
+    gap: 20px;
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the background image */
+    color: white; /* Make the text white to stand out against the background */
+    position: relative; /* Ensure the text stays above the background image */
+    z-index: 1; /* Text above the background */
+    cursor: pointer;
+}
+
+.research-container .ReSection::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); 
+    border-radius: 8px;
+    z-index: 0; /* Background overlay below the text */
+}
+
+
+
+.research-container .ReSection:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
+  transform: translateY(-5px); 
+}
+
+
+
+.research-container .ReSection h2 {
+  color:white; 
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 2;
+}
+
+.research-container .secContain11{
+  display: flex;
+}
+
+
+
+@media (max-width: 600px) {
+
+  .research-container  .card-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .research-container .card {
+    width: 100%;
+    max-width: none;
+  }
+  .research-container  .video{
+    display: none;
+  }
+
+
+  .research-container .fullContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .research-container  .facilitiesContainer, .videoContainer {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+
+  .research-container  .videoContainer video, .secImage {
+    height: auto;
+  }
+
+  .research-container .facilitiesContainer h2 {
+    font-size: 1.8rem;
+  }
+
+  .research-container .facilitiesList li {
+    font-size: 1rem;
+  }
+  .research-container .ReSection {
+    width: 100%;
+
+  }
+
+  .research-container .ReSection::before{
+    width: 100%;
+  }
+
+  .research-container .secContain11{
+    flex-direction: column;
+  }
+
+}
+ 
+
+
+@media (max-width: 480px) {
+
+  .research-container .mainHeading {
+    font-size: 1.2em;
+  }
+
+  .research-container  .card {
+    flex: 1 1 calc(100% - 20px);
+    min-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .research-container  .card-number {
+    font-size: 1.2rem;
+  }
+
+  .research-container  .card-title {
+    font-size: 0.9rem;
+  }
+
+  .research-container .card-content {
+    font-size: 0.8rem;
+  }
+
+  .research-container .card-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .research-container .card-icon .icon {
+    font-size: 1rem;
+  }
+
+  .research-container .facilitiesContainer h2 {
+    font-size: 1.5rem;
+  }
+
+  .research-container .facilitiesList li {
+    font-size: 0.9rem;
+  }
+
+  .research-container button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+    margin-left: 0;
+  }
+ .research-container .ReSection {
+    width: 100%;
+    
+  }
+
+}
+
+
+
+
+  /* Responsive Styles */
+  @media (max-width: 992px) {
+    .research-container .card {
+      flex: 1 1 calc(50% - 40px); /* Two cards per row */
+      max-width: calc(50% - 40px); /* Max width with gap consideration */
+    }
+
+    .research-container  .card-container {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+  
+    .research-container .card {
+      width: 100%;
+      max-width: none;
+    }
+    .research-container  .video{
+      display: none;
+    }
+  
+  
+    .research-container .fullContainer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .research-container   .videoContainer {
+      width: 100%;
+      margin-left: 0;
+      margin-bottom: 20px;
+      max-width: 100%;
+    }
+    .research-container  .facilitiesContainer{
+      width: 100%;
+      margin-left: 0;
+      margin-bottom: 20px;
+      max-width: 100%;
+    }
+    .research-container  .videoContainer video {
+      height: auto;
+    }
+    .research-container .secImage{
+      width: 100%;
+    }
+    .research-container .facilitiesContainer h2 {
+      font-size: 1.8rem;
+    }
+  
+    .research-container .facilitiesList li {
+      font-size: 1rem;
+    }
+    .research-container .ReSection {
+      width: 80%;
+  
+    }
+  
+    .research-container .ReSection::before{
+      width: 100%;
+    }
+  
+    .research-container .secContain11{
+      flex-direction: column;
+    }
+  
+  }
+  
+  @media (max-width: 768px) {
+    .research-container  .card {
+      flex: 1 1 calc(100% - 40px); /* One card per row */
+      max-width: calc(100% - 40px); /* Max width with gap consideration */
+    }
+
+    .research-container  .mainHeading {
+      font-size: 1.5em;
+    }
+  
+    .research-container  .card {
+      flex: 1 1 calc(50% - 20px);
+      min-width: 250px;
+    }
+  
+    .research-container  .card-number {
+      font-size: 1.5rem;
+    }
+  
+    .research-container  .card-title {
+      font-size: 1rem;
+    }
+  
+    .research-container .card-content {
+      font-size: 0.9rem;
+    }
+
+    
+    .research-container .fullContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .research-container .facilitiesContainer {
+    max-width: 100%;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .research-container .videoContainer{
+width: 100%;
+margin: 0;
+  }
+
+  .research-container .videoContainer video, .secImage {
+    height: auto;
+  }
+
+  .research-container .facilitiesContainer h2 {
+    font-size: 1.8rem;
+  }
+
+  .research-container .facilitiesList li {
+    font-size: 1rem;
+  }
+  }

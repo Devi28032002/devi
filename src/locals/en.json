@@ -1,0 +1,21 @@
+{
+  "aboutPage": {
+    "heading": "About IIT KGP",
+    "subheading": "IIT Kharagpur, the oldest, largest, and most diversified of all IITs. The motto of IIT Kharagpur is 'योगः कर्मसु कौशलम्'.",
+    "description": "The motto of IIT Kharagpur is 'योगः कर्मसु कौशलम्'. This literally translates to 'Excellence in action is Yoga', essentially implying that doing your work well is (true) yoga. This can be traced to Sri Krishna's discourse with Arjuna in the Bhagavad Gita. The quote, in the larger context of the Gita, urges man to acquire equanimity because a mind of equanimity allows a man to shed distracting thoughts of the effects of his deeds and concentrate on the task before him. Equanimity is the source of perfection in Karmic endeavours that leads to Salvation.",
+    "history": "History",
+    "achievements": "Achievements",
+    "campus": "Campus and Infrastructure",
+    "research": "Research and Development",
+    "missionTitle": "Our Mission",
+    "missionDescription": "  At IIT Kharagpur, our mission is to advance knowledge and educate students in science, technology, and other areas that will best serve the nation and the world in the 21st century. We aim to provide our students with a comprehensive education, combining rigorous academic study with opportunities for professional development and real-world experience. Our goal is to foster a spirit of innovation, critical thinking, and leadership that prepares our graduates to make significant contributions to society and to solve complex global challenges.",
+    "students": "Students",
+    "faculty": "Faculty",
+    "staff": "Staff",
+    "projects": "Projects",
+    "visionTitle": "Our Vision",
+    "visionStatement1": " To be a centre of excellence in education and research, producing global leaders in science, technology, and management.",
+    "visionStatement2": "To be a hub of knowledge creation that prioritises the frontier areas of national and global importance.",
+    "visionStatement3": "To improve the life of every citizen of the country."
+  }
+}

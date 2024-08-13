@@ -1,0 +1,375 @@
+/* GivePage.css */
+
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+   */
+  /* body {
+    overflow-x: hidden;
+    
+  } */
+
+.give-page {
+    font-family: Arial, sans-serif;
+    color: #003366;
+    background-color: lavender;
+  }
+  
+  .give-page .hero-section {
+    background: url('https://ozarks.edu/wp-content/uploads/graduates-laughing.jpg') no-repeat center center/cover;
+    height: 56vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .give-page .hero-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 56vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .give-page .hero-section h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .give-page .hero-section p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .give-page .cta-button {
+    background-color: #0056b3;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  
+  .give-page  .cta-button:hover {
+    background-color: #003366;
+  }
+  
+  .give-page .impact-section, .donation-form-section, .cta-section {
+    padding: 40px 20px;
+    text-align: center;
+    
+  }
+  
+  .give-page .impact-section h2{
+    font-size: 40px;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .give-page .impact-cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* justify-content: flex-start;
+    gap: 20px; */
+
+  }
+  /* .student-cards {
+    display: flex;
+    justify-content: space-around;
+  } */
+  
+  .give-page  .givcard {
+    background-color: white;   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    width: 260px;
+    height: 240px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+  }
+  /* .givcard{
+    background-color: whitesmoke;
+  } */
+
+ /* .student-card img {
+    width: 100%;
+    height: 50px;
+    border-radius: 8px 8px 0 0;
+  } */
+  
+  .give-page  .stuImage0{
+    border-radius: 50%;
+    width: 100px;
+    height: 77px;
+}
+  
+.give-page .givcard h3, .student-card h3 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .give-page  .givcard p, .student-card p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .give-page  .donation-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    
+  }
+  .give-page  .donation-form-section h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .give-page .donation-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .give-page .donation-form input, .donation-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  /* .student-messages-section h2{
+      font-size: 30px;
+      margin-bottom: 20px;
+  } */
+  
+  .give-page .amount-options {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .give-page .amount-options label {
+    margin-right: 10px;
+  }
+  
+  .give-page .footer-section {
+    background-color: #003366;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+
+  @media (max-width: 768px) {
+    .give-page .hero-section h1 {
+      font-size: 36px;
+    }
+  
+    .give-page .hero-section p {
+      font-size: 18px;
+    }
+  
+    .give-page  .impact-cards, .student-cards1 {
+      
+      align-items: center;
+    }
+  
+    .give-page .givcard, .student-card1 {
+      width: 90%;
+      height: auto;
+    }
+  
+    .give-page .cta-button {
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+    .give-page  .impact-section,  .student-messages-section1, .cta-section{
+        align-items: center;
+        padding: 0;
+    }
+   
+    
+    .give-page  .donation-form input, .donation-form select {
+      padding: 8px;
+    }
+    /* .footer-section{
+        margin-top: 20px;
+    } */
+  }
+  
+  @media (max-width: 480px) {
+    .give-page  .hero-section h1 {
+      font-size: 28px;
+    }
+  
+    .give-page .hero-section p {
+      font-size: 16px;
+    }
+  
+    .give-page .cta-button {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  
+    .give-page .givcard, .student-card1 {
+      width: 100%;
+      height: auto;
+    }
+  
+    .give-page .donation-form input, .donation-form select {
+      padding: 6px;
+    }
+  }
+
+
+
+
+
+ /* .impact-section {
+  background: linear-gradient(90deg, #091c34, #0056b3);
+  padding: 50px 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.impact-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.givcard {
+  background: #0050a0;
+  border-radius: 8px;
+  width: 300px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.givcard:hover {
+  transform: translateY(-10px);
+}
+
+.icon-wrapper {
+  background: #0063cc;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.icon-wrapper img {
+  width: 30px;
+  height: 30px;
+}
+
+.givcard h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.givcard p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.givcard a {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: bold;
+} */
+
+
+
+.give-page .student-messages-section1 {
+  background: linear-gradient(90deg, #091c34, #0056b3);
+  padding: 50px 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.give-page .section-title1 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.give-page .student-cards1 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.give-page .student-card1 {
+  background: #0050a0;
+  border-radius: 8px;
+  width: 300px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.give-page .student-card1:hover {
+  transform: translateY(-10px);
+}
+
+.give-page .icon-wrapper1 {
+  background: #0063cc;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.give-page .icon-wrapper1 img {
+  width: 100%;
+  height: 70px;
+}
+
+
+.give-page .student-card1 h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.give-page .student-card1 p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.give-page .student-card1 a {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: bold;
+}

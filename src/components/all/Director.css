@@ -1,0 +1,231 @@
+.director-desk {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Hero Section */
+.director-desk .hero-section {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa4CK8s7_2LeOAoG3_EztaS0GPjrF5-oneAQ&s');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+  position: relative;
+}
+
+.director-desk  .hero-section::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.director-desk  .hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.director-desk  .hero-content h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.director-desk  .hero-content h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.director-desk  .hero-content p {
+  font-size: 1.2em;
+}
+
+.director-desk .hero-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  /* bottom: -75px; */
+}
+
+/* About Section */
+.director-desk .about-section {
+  display: flex;
+  padding: 60px 20px;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+
+.director-desk .about-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.director-desk .about-content h3 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.director-desk .about-content p {
+  margin-bottom: 20px;
+}
+
+.director-desk  .about-image {
+  flex: 1;
+  text-align: center;
+}
+
+.director-desk  .about-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Message Section */
+.director-desk  .message-section {
+  background-color: #003366;
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.director-desk  .message-content blockquote {
+  font-size: 1.5em;
+  font-style: italic;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Vision & Mission Section */
+.director-desk  .vision-mission-section {
+  display: flex;
+  padding: 60px 20px;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.director-desk  .card {
+  flex: 1;
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin: 0 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.director-desk .card h4 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.director-desk .card p {
+  font-size: 1.2em;
+}
+
+/* Contact Section */
+.director-desk .contact-section {
+  background-color: #003366;
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.director-desk .contact-card {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #0056b3;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.director-desk .contact-card h4 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.director-desk .contact-card p {
+  margin-bottom: 10px;
+}
+
+.director-desk .contact-button {
+  background-color: #ffd700;
+  color: #003366;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.director-desk .contact-button:hover {
+  background-color: #e6c300;
+}
+
+
+
+@media (max-width: 768px) {
+  .director-desk   .director-desk-section {
+    padding: 20px 10px;
+  }
+
+  .director-desk   .card {
+    margin: 15px 10px;
+    padding: 15px;
+    min-width: 280px;
+    max-width: 100%;
+  }
+
+  .director-desk  .card h4 {
+    font-size: 1.6em;
+  }
+
+  .director-desk  .card p, .card h5 {
+    font-size: 1.1em;
+  }
+
+  .director-desk  .focus-grid {
+    gap: 10px;
+  }
+
+  .director-desk   .focus-item {
+    padding: 10px;
+
+  }
+
+  .director-desk  .vision-mission-section{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .director-desk  .card {
+    margin: 10px 5px;
+    padding: 10px;
+    min-width: 260px;
+  }
+
+  .director-desk  .card h4 {
+    font-size: 1.4em;
+  }
+
+  .director-desk  .card p, .card h5 {
+    font-size: 1em;
+  }
+
+  .director-desk  .focus-item img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .director-desk  .focus-item span {
+    font-size: 1em;
+  }
+}
